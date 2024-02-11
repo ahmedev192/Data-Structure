@@ -4,7 +4,7 @@ using namespace std;
 template <typename T>
 struct Node {
 	T data{ };
-	Node* next{ };
+	Node<T> * next{ };
 	Node(T data) : data(data) {}
 	~Node() {
 		cout << "Destroy value: " << data << " at address " << this << "\n";
