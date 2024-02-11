@@ -46,7 +46,7 @@ int main() {
     return 0;
 }
 
-
+```
 
 # Doubly Linked List Implementation in C++
 
@@ -88,7 +88,7 @@ int main() {
     return 0;
 }
 
-
+```
 
 ## Contributing
 
