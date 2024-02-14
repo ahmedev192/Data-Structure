@@ -163,6 +163,63 @@ int main() {
 ```
 
 
+# Queue Implementations in C++
+
+This repository contains C++ implementations of two types of queues: circular array-based queue (Deque) and linked list-based queue.
+
+## Circular Array-based Queue (Deque)
+
+### Features
+
+- **Enqueue Front**: Add an element to the front of the queue.
+- **Enqueue Rear**: Add an element to the rear of the queue.
+- **Dequeue Front**: Remove and return the element from the front of the queue.
+- **Dequeue Rear**: Remove and return the element from the rear of the queue.
+- **Display**: Print the elements of the queue.
+- **Empty and Full Checking**: Check if the queue is empty or full.
+
+### Usage
+
+1. Clone the repository to your local machine:
+
+    ```bash
+    git clone https://github.com/ahmedev192/Data-Structure.git
+    ```
+
+
+2. Use the provided member functions to perform operations on the queue:
+
+    ```cpp
+    queue.enqueueFront(5);
+    queue.enqueueRear(10);
+    queue.display();
+    ```
+
+## Linked List-based Queue
+
+### Features
+
+- **Enqueue**: Add an element to the rear of the queue.
+- **Dequeue**: Remove and return the element from the front of the queue.
+- **Display**: Print the elements of the queue.
+- **Empty Checking**: Check if the queue is empty.
+
+### Usage
+
+1. Clone the repository to your local machine:
+
+    ```bash
+    git clone https://github.com/ahmedev192/Data-Structure.git
+    ```
+
+2. Use the provided member functions to perform operations on the queue:
+
+    ```cpp
+    queue.enqueue(5);
+    queue.enqueue(10);
+    queue.display();
+    ```
+
 
 
 
