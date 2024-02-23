@@ -223,6 +223,62 @@ This repository contains C++ implementations of two types of queues: circular ar
 
 
 
+
+# Binary Tree Implementation in C++
+
+This repository contains a simple implementation of a binary tree data structure in C++. The `BinaryTree` class provides various functionalities such as adding nodes, traversing the tree in different orders, finding maximum value, calculating height, counting nodes, searching for a value, checking if the tree satisfies the perfect binary tree formula, and printing tree nodes at a specific level.
+
+## Features
+
+- Add nodes to the binary tree.
+- Print tree nodes in different traversal orders: InOrder, PreOrder, and PostOrder.
+- Find the maximum value in the tree.
+- Calculate the height of the tree.
+- Count the total number of nodes in the tree.
+- Search for a value in the tree.
+- Check if the tree satisfies the perfect binary tree formula.
+- Print tree nodes at a specific level.
+- Perform level order traversal and print nodes in level order.
+- Perform level order traversal in a spiral manner.
+
+## Usage
+
+To use the binary tree implementation in your project, follow these steps:
+
+1. Clone the repository:
+
+    ```bash
+    git clone https://github.com/ahmedev192/Data-Structure.git
+    ```
+
+2. Include the `BinaryTree.h` header file in your project.
+
+3. Create a `BinaryTree` object and use its member functions to perform various operations on the binary tree.
+
+## Example
+
+```cpp
+#include <iostream>
+#include "BinaryTree.h"
+
+int main() {
+    // Create a binary tree with root value 1
+    BinaryTree<int> tree(1);
+
+    // Add nodes to the tree
+    std::vector<int> values = {2, 3, 4, 5, 6};
+    std::vector<char> directions = {'L', 'R', 'L', 'R', 'L'};
+    tree.add(values, directions);
+
+    // Test various functionalities of the BinaryTree class
+
+    return 0;
+}
+
+```
+
+
+
 ## Contributing
 
 Contributions to improve existing data structures, add new data structures, fix bugs, or enhance documentation are welcome! If you find any issues or have suggestions, feel free to open an issue or submit a pull request.
